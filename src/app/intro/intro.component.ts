@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TextAnimation } from 'ngx-teximate';
 import { fadeInDown, fadeIn } from 'ng-animate';
+import { MatIconRegistry } from '@angular/material/icon';
 
 @Component({
   selector: 'app-intro',
@@ -20,7 +21,8 @@ export class IntroComponent implements OnInit {
     type: 'letter'
   };
 
-  constructor() { }
+  constructor() {
+   }
 
   ngOnInit() {
     

@@ -4,6 +4,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule, MatCheckboxModule} from '@angular/material';
 import {MatIconModule} from '@angular/material/icon';
 import { TeximateModule } from 'ngx-teximate';
+import { HttpClientModule } from "@angular/common/http";
 
 import { AppComponent } from './app.component';
 import { IntroComponent } from './intro/intro.component';
@@ -29,7 +30,8 @@ import { ContactsComponent } from './contacts/contacts.component';
     MatButtonModule, 
     MatCheckboxModule,
     TeximateModule,
-    MatIconModule
+    MatIconModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
