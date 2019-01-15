@@ -1,0 +1,24 @@
+.viewportSize {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.transparent {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.centered-box {
+  margin: 0 auto;
+}
+
+.animated-intro1 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.animated-intro1 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
