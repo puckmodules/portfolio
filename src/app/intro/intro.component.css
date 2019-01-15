@@ -11,14 +11,42 @@
 
 .centered-box {
   margin: 0 auto;
+  width: 50%;
 }
 
-.animated-intro1 {
+.intro-title-1 {
+  color: white;
+  font-size: 35px;
+  text-align: justify;
+  text-align-last: center;
+}
+
+.intro-title-2 {
+  color: Turquoise;
+  font-size: 55px;
+  text-align: justify;
+  text-align-last: center;
   font-weight: 900;
-  font-size: 3.5em;
 }
 
-.animated-intro1 .letter {
-  display: inline-block;
-  line-height: 1em;
+.intro-title-3 {
+  color: white;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  padding: 10%;
+}
+
+li button {
+  display: block;
+  text-decoration: none;
 }

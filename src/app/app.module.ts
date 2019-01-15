@@ -2,6 +2,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule, MatCheckboxModule} from '@angular/material';
+import {MatIconModule} from '@angular/material/icon';
+import { TeximateModule } from 'ngx-teximate';
+
 import { AppComponent } from './app.component';
 import { IntroComponent } from './intro/intro.component';
 import { AboutComponent } from './about/about.component';
@@ -25,7 +28,8 @@ import { ContactsComponent } from './contacts/contacts.component';
     BrowserAnimationsModule,
     MatButtonModule, 
     MatCheckboxModule,
-
+    TeximateModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

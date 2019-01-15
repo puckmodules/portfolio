@@ -1,5 +1,21 @@
 <div class="viewportSize transparent">
   <div class="centered-box">
-    <h1 class="ml2">Sunny mornings</h1>
+    <teximate class="intro-title-1" [text]="introText1" [enter]="enterAnimation"></teximate>
+    <teximate class="intro-title-2" [text]="introText2" [enter]="enterAnimation"></teximate>
+    <teximate class="intro-title-3" [text]="introText3" [enter]="enterAnimation"></teximate>
+    <div>
+      <ul>
+        <li>
+          <button mat-mini-fab>
+            <mat-icon>favorite</mat-icon>
+          </button>
+        </li>
+        <li>
+            <button mat-mini-fab>
+              <mat-icon>favorite</mat-icon>
+            </button>
+          </li>
+      </ul>
+    </div>
   </div>
 </div>

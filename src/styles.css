@@ -6,4 +6,6 @@ body {
     background-size: cover;
     background-position: center;
     margin: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
