@@ -1,0 +1,21 @@
+.main-div {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    text-align-last: center;
+    background-color: white;
+}
+
+.title {
+    margin: 0 auto;
+}
+
+.left-section {
+    left:0px;
+    background-color: green;
+}
+
+.right-section {
+    right: 0px;
+    background-color: red;
+}
